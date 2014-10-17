@@ -1,0 +1,11 @@
+<queue-entries>
+    <queue>
+        <name>emailQueue</name>
+        <rate>1/s</rate>
+        <retry-parameters>
+            <task-retry-limit>7</task-retry-limit>
+            <task-age-limit>2d</task-age-limit>
+        </retry-parameters>
+        <bucket-size>10</bucket-size>
+    </queue>
+ </queue-entries>
